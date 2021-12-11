@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <h1>Video Chat</h1>
+        <div id="me">
+            <h3>local</h3>
+            <video id="video" width="500" height="300" autoplay></video>
+        </div>
+        <div id="other">
+            <h3>other</h3>
+            <video id="video" width="500" height="300" autoplay></video>
+        </div>
+        <div id="local">
+            <button onclick="copyId()">copy adresse</button>
+        </div>
+        <div id="caller">
+            <input id="idCall" type="text"><br>
+            <button onclick="call()">call</button>
+        </div>
+        <!-- <button onclick="call()">h</button> -->
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
